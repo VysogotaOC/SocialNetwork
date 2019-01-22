@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sign in</string>
+    <string name="login_id">Enter your login</string>
+    <string name="password_id">Enter your password</string>
+    <string name="login_button_id">Log in</string>
+    <string name="login_and_password_empty">Fill in the fields your login and password</string>
+    <string name="incorrect_login_and_password">Login and password are incorrect</string>
+    <string name="login_empty">Field "Login" is empty</string>
+    <string name="password_empty">Field "Password" is empty</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Экран входа</string>
+    <string name="login_id">Введите свой логин</string>
+    <string name="password_id">Введите свой пароль</string>
+    <string name="login_button_id">Войти</string>
+    <string name="login_and_password_empty">Заполните поля логин и пароль</string>
+    <string name="incorrect_login_and_password">Логин и пароль не совпадают</string>
+    <string name="login_empty">Заполните поле "Логин"</string>
+    <string name="password_empty">Заполните поле "Пароль"</string>
+</resources>
