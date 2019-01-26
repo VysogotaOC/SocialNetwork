@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/feed_button"
+        android:title="@string/feed_button_title"
+        android:icon="@drawable/feed"/>
+    <item
+            android:id="@+id/news_button"
+            android:title="@string/news_button_title"
+            android:icon="@drawable/news"/>
+    <item
+            android:id="@+id/notifications_button"
+            android:title="@string/notifications_button_title"
+            android:icon="@drawable/notifications"/>
+</menu>

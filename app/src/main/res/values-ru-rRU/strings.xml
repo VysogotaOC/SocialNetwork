@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Экран входа</string>
+    <string name="app_name">Social Network</string>
+    <string name="title_feed">Лента</string>
     <string name="login_id">Введите свой логин</string>
     <string name="password_id">Введите свой пароль</string>
     <string name="login_button_id">Войти</string>
@@ -8,4 +9,8 @@
     <string name="incorrect_login_and_password">Логин и пароль не совпадают</string>
     <string name="login_empty">Заполните поле "Логин"</string>
     <string name="password_empty">Заполните поле "Пароль"</string>
+    <string name="feed_button_title">Лента</string>
+    <string name="news_button_title">Новости</string>
+    <string name="notifications_button_title">Уведомления</string>
+    <string name="hello_blank_fragment">Hello blank fragment RU</string>
 </resources>

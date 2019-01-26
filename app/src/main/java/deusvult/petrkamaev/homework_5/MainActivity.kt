@@ -1,5 +1,6 @@
 package deusvult.petrkamaev.homework_5
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.design.widget.Snackbar
@@ -13,14 +14,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        login_button_id.setOnClickListener{v -> login(v)}
+        title = "Sign in"
+
+        login_button_id.setOnClickListener{login()}
     }
 
-    fun login(v: View){
+    private fun login(){
         if(login_id.text.toString().isEmpty() && password_id.text.toString().isEmpty()){
             Snackbar.make(findViewById(android.R.id.content), resources.getString(R.string.login_and_password_empty), Snackbar.LENGTH_SHORT).show()
         }else if(login_id.text.toString() == "test" && password_id.text.toString() == "test"){
-            //here need to start new activity
+            val intent = Intent(this, FeedActivity::class.java)
+            startActivity(intent)
         }else if(login_id.text.toString().isEmpty() && password_id.text.toString().isNotEmpty()){
             Snackbar.make(findViewById(android.R.id.content), resources.getString(R.string.login_empty), Snackbar.LENGTH_SHORT).show()
         }else if(password_id.text.toString().isEmpty() && login_id.text.toString().isNotEmpty()){
