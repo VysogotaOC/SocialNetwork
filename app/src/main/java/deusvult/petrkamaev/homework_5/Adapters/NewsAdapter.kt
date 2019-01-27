@@ -1,35 +1,20 @@
 package deusvult.petrkamaev.homework_5.Adapters
 
-import android.app.Activity
-import android.content.Context
-import android.support.v7.widget.RecyclerView
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.TextView
-import deusvult.petrkamaev.homework_5.Info.Feed
+import com.example.delegateadapter.delegate.KDelegateAdapter
 import deusvult.petrkamaev.homework_5.Info.NewsList
 import deusvult.petrkamaev.homework_5.R
+import kotlinx.android.synthetic.main.news_list.*
 
-class NewsAdapter (val context: Context, val objects: List<NewsList>) : RecyclerView.Adapter<NewsAdapter.MyViewHolder>() {
-    override fun onCreateViewHolder(p0: ViewGroup, p1: Int): MyViewHolder {
-        val view = LayoutInflater.from(context).inflate(R.layout.news_list, p0, false)
-        return MyViewHolder(view)
-    }
+class NewsAdapter : KDelegateAdapter<NewsList>() {
 
-    override fun getItemCount(): Int {
-        return objects.size
-    }
+    override fun onBind(news: NewsList, viewHolder: KViewHolder) =
+        with(viewHolder) {
+            title_news.text = news.title
+            body_news.text = news.body
+        }
 
-    override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        val news: NewsList = objects[position]
+    override fun isForViewType(news: List<*>, position: Int) =
+        news[position] is NewsList
 
-        holder.titleText.text = "" + news.title
-        holder.bodyText.text = "" + news.body
-    }
-
-    inner class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val titleText = itemView.findViewById(R.id.title_news) as TextView
-        val bodyText = itemView.findViewById(R.id.body_news) as TextView
-    }
+    override fun getLayoutId(): Int = R.layout.news_list
 }

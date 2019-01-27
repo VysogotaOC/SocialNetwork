@@ -1,11 +1,11 @@
 package deusvult.petrkamaev.homework_5.Info
 
-import android.graphics.Bitmap
+import deusvult.petrkamaev.homework_5.IViewModel
 import deusvult.petrkamaev.homework_5.R
 
 
-data class NewsList(val title: String, val body: String)
-data class NotificationsList(val title: String, val image: Int)
+data class NewsList(val title: String, val body: String): IViewModel
+data class NotificationsList(val title: String, val image: Int) : IViewModel
 
 
 object DataFile {

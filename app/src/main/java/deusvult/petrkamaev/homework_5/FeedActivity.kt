@@ -2,24 +2,20 @@ package deusvult.petrkamaev.homework_5
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.annotation.DrawableRes
 import android.support.design.widget.BottomNavigationView
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
 import deusvult.petrkamaev.homework_5.Fragments.FeedFragment
 import deusvult.petrkamaev.homework_5.Fragments.NewsFragment
 import deusvult.petrkamaev.homework_5.Fragments.NotificationsFragment
 import kotlinx.android.synthetic.main.activity_feed.*
-import kotlinx.android.synthetic.main.fragment_notifications.*
 
 class FeedActivity : AppCompatActivity() {
 
     private val manager = supportFragmentManager
 
-    //private val newsItems = DataFile.news.shuffled()
-    //private val notificationItems = DataFile.notifications.shuffled()
-
-
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
+        if (item.itemId == bottomNavigationView.selectedItemId)
+            return@OnNavigationItemSelectedListener false
         when(item.itemId){
             R.id.feed_button -> {
                 createFeedFragment()
@@ -62,6 +58,7 @@ class FeedActivity : AppCompatActivity() {
         transaction.addToBackStack(null)
         transaction.commit()
     }
+
     private fun createNotificationsFragment(){
         title = "Notifications"
         val transaction = manager.beginTransaction()
