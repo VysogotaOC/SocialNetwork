@@ -6,22 +6,25 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import deusvult.petrkamaev.homework_5.Adapters.NewsAdapter
 import deusvult.petrkamaev.homework_5.Info.DataFile
-import deusvult.petrkamaev.homework_5.Adapters.NotificationsAdapter
-import deusvult.petrkamaev.homework_5.R
-import kotlinx.android.synthetic.main.fragment_notifications.*
 
-class NotificationsFragment : Fragment() {
-    val notifications = DataFile.notifications.shuffled()
+import deusvult.petrkamaev.homework_5.R
+import kotlinx.android.synthetic.main.fragment_news.*
+
+class NewsFragment : Fragment() {
+    val news = DataFile.news.shuffled()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater!!.inflate(R.layout.fragment_notifications, container, false)
+        return inflater!!.inflate(R.layout.fragment_news, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        notifications_recyclerView.layoutManager = LinearLayoutManager(context)
-        notifications_recyclerView.adapter = NotificationsAdapter(requireContext(), notifications)
+        news_recyclerView.layoutManager = LinearLayoutManager(context)
+        news_recyclerView.adapter = NewsAdapter(requireContext(), news)
+
+
     }
 }
