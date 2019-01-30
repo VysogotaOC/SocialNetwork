@@ -1,12 +1,12 @@
-package deusvult.petrkamaev.homework_5
+package deusvult.petrkamaev.homework_5.activities
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.annotation.DrawableRes
 import android.support.design.widget.BottomNavigationView
-import deusvult.petrkamaev.homework_5.Fragments.FeedFragment
-import deusvult.petrkamaev.homework_5.Fragments.NewsFragment
-import deusvult.petrkamaev.homework_5.Fragments.NotificationsFragment
+import android.support.v7.app.AppCompatActivity
+import deusvult.petrkamaev.homework_5.R
+import deusvult.petrkamaev.homework_5.fragments.FeedFragment
+import deusvult.petrkamaev.homework_5.fragments.NewsFragment
+import deusvult.petrkamaev.homework_5.fragments.NotificationsFragment
 import kotlinx.android.synthetic.main.activity_feed.*
 
 class FeedActivity : AppCompatActivity() {
@@ -16,7 +16,7 @@ class FeedActivity : AppCompatActivity() {
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         if (item.itemId == bottomNavigationView.selectedItemId)
             return@OnNavigationItemSelectedListener false
-        when(item.itemId){
+        when (item.itemId){
             R.id.feed_button -> {
                 createFeedFragment()
                 return@OnNavigationItemSelectedListener true
@@ -37,12 +37,11 @@ class FeedActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_feed)
 
-
         createFeedFragment()
         bottomNavigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
     }
 
-    private fun createFeedFragment(){
+    private fun createFeedFragment() {
         title = "Feed"
         val transaction = manager.beginTransaction()
         val fragment = FeedFragment()
@@ -50,7 +49,7 @@ class FeedActivity : AppCompatActivity() {
         transaction.addToBackStack(null)
         transaction.commit()
     }
-    private fun createNewsFragment(){
+    private fun createNewsFragment() {
         title = "News"
         val transaction = manager.beginTransaction()
         val fragment = NewsFragment()
@@ -59,7 +58,7 @@ class FeedActivity : AppCompatActivity() {
         transaction.commit()
     }
 
-    private fun createNotificationsFragment(){
+    private fun createNotificationsFragment() {
         title = "Notifications"
         val transaction = manager.beginTransaction()
         val fragment = NotificationsFragment()

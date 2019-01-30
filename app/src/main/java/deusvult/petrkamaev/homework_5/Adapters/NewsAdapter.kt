@@ -1,4 +1,4 @@
-package deusvult.petrkamaev.homework_5.Adapters
+package deusvult.petrkamaev.homework_5.adapters
 
 import com.example.delegateadapter.delegate.KDelegateAdapter
 import deusvult.petrkamaev.homework_5.Info.NewsList
@@ -7,10 +7,10 @@ import kotlinx.android.synthetic.main.news_list.*
 
 class NewsAdapter : KDelegateAdapter<NewsList>() {
 
-    override fun onBind(news: NewsList, viewHolder: KViewHolder) =
+    override fun onBind(item: NewsList, viewHolder: KViewHolder) =
         with(viewHolder) {
-            title_news.text = news.title
-            body_news.text = news.body
+            title_news.text = item.title
+            body_news.text = item.body
         }
 
     override fun isForViewType(news: List<*>, position: Int) =

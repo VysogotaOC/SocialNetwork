@@ -1,4 +1,4 @@
-package deusvult.petrkamaev.homework_5.Adapters
+package deusvult.petrkamaev.homework_5.adapters
 
 import com.example.delegateadapter.delegate.KDelegateAdapter
 import deusvult.petrkamaev.homework_5.Info.NotificationsList

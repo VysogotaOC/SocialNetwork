@@ -1,4 +1,4 @@
-package deusvult.petrkamaev.homework_5.Fragments
+package deusvult.petrkamaev.homework_5.fragments
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -7,10 +7,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.delegateadapter.delegate.CompositeDelegateAdapter
-import deusvult.petrkamaev.homework_5.Adapters.NewsAdapter
-import deusvult.petrkamaev.homework_5.IViewModel
+import deusvult.petrkamaev.homework_5.adapters.NewsAdapter
 import deusvult.petrkamaev.homework_5.Info.DataFile
-
+import deusvult.petrkamaev.homework_5.Info.IViewModel
 import deusvult.petrkamaev.homework_5.R
 import kotlinx.android.synthetic.main.fragment_news.*
 

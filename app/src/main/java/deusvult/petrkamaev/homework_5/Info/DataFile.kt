@@ -1,6 +1,5 @@
 package deusvult.petrkamaev.homework_5.Info
 
-import deusvult.petrkamaev.homework_5.IViewModel
 import deusvult.petrkamaev.homework_5.R
 
 
