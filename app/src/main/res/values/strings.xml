@@ -13,4 +13,7 @@
     <string name="news_button_title">News</string>
     <string name="notifications_button_title">Notifications</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_title_news">Enter the title</string>
+    <string name="add_body_news">Enter the body of news</string>
+    <string name="post_button">Post</string>
 </resources>

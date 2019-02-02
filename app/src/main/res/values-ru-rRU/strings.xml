@@ -13,4 +13,7 @@
     <string name="news_button_title">Новости</string>
     <string name="notifications_button_title">Уведомления</string>
     <string name="hello_blank_fragment">Hello blank fragment RU</string>
+    <string name="add_title_news">Введите тему для новости</string>
+    <string name="add_body_news">Введите новость</string>
+    <string name="post_button">Выложить</string>
 </resources>
