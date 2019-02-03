@@ -20,12 +20,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialNetwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/Fragments/FeedFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/Fragments/FeedFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/activities/AddNewsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/activities/AddNewsActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/activities/FeedActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/activities/FeedActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_feed.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,56 +46,81 @@
     <session id="423195757">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="2" />
-          <entry key="kt" value="29" />
+          <entry key="java" value="1" />
+          <entry key="kt" value="33" />
           <entry key="png" value="1" />
-          <entry key="xml" value="25" />
+          <entry key="xml" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
           <entry key="Image" value="1" />
-          <entry key="Kotlin" value="29" />
-          <entry key="XML" value="25" />
+          <entry key="JAVA" value="1" />
+          <entry key="Kotlin" value="33" />
+          <entry key="XML" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
           <entry key="gradle" value="1" />
-          <entry key="kt" value="1326" />
-          <entry key="xml" value="929" />
+          <entry key="kt" value="1331" />
+          <entry key="txt" value="29" />
+          <entry key="xml" value="1020" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="Kotlin" value="1326" />
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="XML" value="929" />
+          <entry key="Kotlin" value="1331" />
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="XML" value="1020" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/Fragments/FeedFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+            <state relative-caret-position="400">
+              <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/activities/FeedActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+              <folding>
+                <element signature="e#56#492#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_feed.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -106,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/Info/DataFile.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="2108">
               <caret line="124" column="39" selection-start-line="124" selection-start-column="39" selection-end-line="124" selection-end-column="39" />
             </state>
           </provider>
@@ -115,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/activities/AddNewsActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+            <state relative-caret-position="374">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding>
                 <element signature="e#56#277#0" expanded="true" />
               </folding>
@@ -2540,7 +2562,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/activities/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/feed.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_feed.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
@@ -2551,12 +2572,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/news_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/Info/DataFile.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_feed.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/activities/FeedActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/FeedActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/activities/AddNewsActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_feed.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/Fragments/FeedFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/activities/FeedActivity.kt" />
       </list>
     </option>
   </component>
@@ -2573,6 +2595,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2720,7 +2743,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2822,6 +2844,21 @@
       <option name="presentableId" value="Default" />
       <updated>1548845781460</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1549203531588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549203531588</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed bag with adding news.">
+      <created>1549203588659</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549203588659</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2841,9 +2878,9 @@
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50402683" side_tool="true" visible="true" weight="0.19574468" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.504698" side_tool="true" visible="true" weight="0.19574468" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49597314" visible="true" weight="0.19574468" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49530202" visible="true" weight="0.19574468" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32967034" />
       <window_info anchor="bottom" id="Android Profiler" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -2857,19 +2894,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Fixed bag with adding news." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bag with adding news." />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/feed.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/feed.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_feed.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2956,9 +2990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="60" />
-          <folding>
-            <element signature="e#56#303#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2973,12 +3004,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/Fragments/NotificationsFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -2990,37 +3021,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/Info/DataFile.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="124" column="39" selection-start-line="124" selection-start-column="39" selection-end-line="124" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Android/Sdk/sources/android-28/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="5629" column="16" selection-start-line="5629" selection-start-column="16" selection-end-line="5629" selection-end-column="16" />
+          <folding>
+            <element signature="e#239888#239889#0" expanded="true" />
+            <element signature="e#239942#239943#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_feed.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/activities/AddNewsActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+        <state relative-caret-position="374">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding>
             <element signature="e#56#277#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/Fragments/FeedFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/activities/FeedActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="485">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
           <folding>
             <element signature="e#56#492#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/Info/DataFile.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="124" column="39" selection-start-line="124" selection-start-column="39" selection-end-line="124" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vysogotaoc/petrkamaev/socialnetwork/Fragments/FeedFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
         </state>
       </provider>
     </entry>

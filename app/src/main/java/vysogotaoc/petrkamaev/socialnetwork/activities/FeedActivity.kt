@@ -67,4 +67,9 @@ class FeedActivity : AppCompatActivity() {
         transaction.addToBackStack(null)
         transaction.commit()
     }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        finish()
+    }
 }
