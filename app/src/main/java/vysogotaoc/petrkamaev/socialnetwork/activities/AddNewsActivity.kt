@@ -22,7 +22,6 @@ class AddNewsActivity : AppCompatActivity() {
             intent.putExtra("Body", add_body_news.text.toString())
             this.setResult(RESULT_OK, intent)
             finish()
-
         } else {
             Snackbar.make(findViewById(android.R.id.content), "Enter empty fields", Snackbar.LENGTH_SHORT).show()
         }

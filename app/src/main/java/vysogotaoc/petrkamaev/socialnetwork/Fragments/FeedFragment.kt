@@ -20,8 +20,6 @@ import vysogotaoc.petrkamaev.socialnetwork.Info.NewsList
 import vysogotaoc.petrkamaev.socialnetwork.activities.AddNewsActivity
 
 class FeedFragment : Fragment() {
-    var added_news_list = ArrayList<NewsList>()
-    var allItems = added_news_list + DataFile.allItems.shuffled()
     private var news_data = 1
 
 
@@ -39,7 +37,7 @@ class FeedFragment : Fragment() {
             .build()
         feed_recyclerView.layoutManager = LinearLayoutManager(context)
         feed_recyclerView.adapter = adapter
-        adapter.swapData(allItems)
+        adapter.swapData(DataFile.allItems.shuffled())
 
         feed_recyclerView.addOnScrollListener(object: RecyclerView.OnScrollListener() {
             override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
@@ -71,7 +69,7 @@ class FeedFragment : Fragment() {
             description
         )
         )
-        allItems = added_news_list + allItems
+        DataFile.allItems = added_news_list + DataFile.allItems.shuffled()
 
         val adapter = CompositeDelegateAdapter.Builder<IViewModel>()
             .add(NewsAdapter())
@@ -80,6 +78,6 @@ class FeedFragment : Fragment() {
         feed_recyclerView.layoutManager = LinearLayoutManager(context)
         feed_recyclerView.adapter = adapter
 
-        adapter.swapData(allItems)
+        adapter.swapData(DataFile.allItems)
     }
 }
